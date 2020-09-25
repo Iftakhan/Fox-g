@@ -1,0 +1,396 @@
+@font-face{
+	font-family: snd;
+	src:url(../fonts/Shentox_Bold_Typeface.otf);
+}
+
+@font-face{
+	font-family: snd light;
+	src:url(../fonts/Shentox_Light_Typeface.otf);
+}
+
+@font-face{
+    font-family: snd regular;
+    src:url(../fonts/Shentox_Regular_Typeface.otf);
+}
+
+
+
+	
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	width: 100%;
+	height: 218px;
+	display: flow-root;
+	background-color: #171816;
+	overflow:hidden;
+
+}
+.logo{
+	padding: 48px;
+}
+.inner-header{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 78vh;
+}
+.inner-header{
+	width: 1000px;
+	height: auto;
+	
+	margin: 0 auto;
+    
+	
+
+}
+.logo{
+
+	height: 100%;
+	
+	float: left;
+}
+
+.logo img{
+	width: 17%;
+    
+}
+
+.logo h1{
+	
+
+    font-family: snd;
+    color: white;
+    font-size: 29px;
+    margin-left: 60px;
+    margin-top: -58px;
+}
+.logo h1 span{
+	
+    top: 23px;
+    right: 60px;
+    font-family: snd light;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+    position: relative;
+
+}
+.right-heading{
+	width:30%;
+	float:right;
+	padding: 36px;
+}
+.right-heading h1{
+	float: right;
+   
+    top: 54px;
+    font-size: 63px;
+    font-family: snd;
+     color: white;
+}
+.right-heading h2{
+	float: right;
+    top: -10px;
+    left: 127px;
+    font-size: 24px;
+    font-family: snd light;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    position: relative;
+	
+}
+.right-heading h2 span{
+	
+    top: 18px;
+    right: 132px;
+    font-size: 25px;
+    color: white;
+    font-size: 17px;
+    position: relative;
+}
+
+.headset{
+    width: 100%;
+    background-image: url(../img/fox_tattoos_grey.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 83vh;
+
+}
+.headset{
+	width: 100%;
+	overflow: hidden;
+}
+
+
+.controloader2{
+	width:50%;
+	float:left;
+}
+.controloader2 img{
+    float: left;
+    position: relative;
+    top: 286px;
+    width: 74%;
+}
+.controloader{
+	width:50%;
+	float:left;
+}
+.controloader img{
+    position: absolute;
+    top: 0%;
+    width: 616px;
+    left: 34%;
+    height: auto;
+
+}
+
+.middle-text p{
+    width: 100%;
+  
+    background: #141413;
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 20px 0;
+   	font-family: snd light;
+    
+    top: 466px;
+    background-color: #e20613;
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+}
+.middle-wrapper{
+   
+    width: 100%;
+    background-image: url(../img/fox_tattoos_wht.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 78vh;
+
+}
+.middle-wrapper h1{
+	    font-family: snd;
+    font-size: 76px;
+    float: left;
+    margin: 35px 215px
+}
+
+.placa-de {
+    width: 100%;
+  
+    background: #f0f0f0;
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 29px 0;
+   	font-family: snd light;
+    
+  
+    background-color: #141413;
+   
+    
+}
+.placa-de h1{
+	float: right;
+    color: white;
+    font-size: 22px;
+    font-family: snd light;
+    position: relative;
+    right: 81px;
+   font-weight: 600;
+    bottom: 11px;
+}
+
+.placa-de span{
+	font-weight: normal;
+}
+
+
+.dx_logo img{
+	width: 4%;
+    position: absolute;
+    left: 203px;
+}
+.surround{
+	width: 100%;
+    background-image: url(../img/software.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 82vh;
+}
+
+.left_surr p{
+    font-family: snd;
+    font-size: 47px;
+    color: white;
+    font-weight: 700;
+    top: 45px;
+    padding: 49px 170px;
+}
+.left_surr p span{
+    font-family: snd regular;
+    font-size: 26px;
+    font-weight: normal;
+    
+
+}
+.left_surr p span span{
+     font-family: snd regular;
+    font-size: 46px;
+    font-weight: normal;
+
+}
+.sd{
+    font-family: snd light ;
+    float: right;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    position: relative;
+    bottom: 76px;
+    right: 267px;
+}
+
+
+.wire{
+    background-image: url(../img/fox_tattoos_wht.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 78vh;
+    overflow: hidden;
+}
+.wire-img{
+    width:50%;
+    float:left;
+}
+.wire-img img{
+    width: 1554px;
+    margin-left: -260px;
+    margin-top: -188px;
+
+}
+.wire-content{
+    width:50%;
+    float:left;
+}
+.wire p{
+    text-align: right;
+     font-family: snd;
+    font-size: 47px;
+    color: red;
+    font-weight: 700;
+    top: 45px;
+    padding: 16px 41px;
+    float: right;
+    
+}
+.wire p span{
+    font-family: snd light;
+    font-size: 30px;
+    color: black;
+    font-weight: 100;
+    position: relative;
+    top: -27px;
+}
+
+.cabo{
+    background-image: url(../img/right.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 78vh;
+}
+.cabo p {
+    font-family: snd;
+    font-size: 47px;
+    color: red;
+    font-weight: 700;
+    top: 45px;
+    padding: 59px 126px;
+    color: white;
+    
+
+}
+.cabo p span{
+    font-family: snd regular;
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+}
+
+.cable{
+    background-image: url(../img/cable.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 78vh;
+}
+.cable p {
+    font-family: snd;
+    font-size: 47px;
+    font-weight: 700;
+    top: 54px;
+    padding: 78px 126px;
+    float: left;
+    color: red;
+    margin-top: -34px;
+}
+.cable p span{
+    font-family: snd light;
+    font-size: 30px;
+    color: black;
+    font-weight: 100;
+}
+
+.jack{
+     background-image: url(../img/jack.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 78vh;
+}
+.jack p{
+    text-align: right;
+     font-family: snd;
+    font-size: 47px;
+    color: black;
+    font-weight: 700;
+    padding: 53px 66px;
+    float: right;
+}
+.jack p span{
+    font-family: snd light;
+    font-size: 26px;
+    color: white;
+    font-weight: 100;
+}
+.end p{
+    text-align: left;
+     font-family: snd;
+    font-size: 47px;
+    color: black;
+    font-weight: 700;
+    padding: 53px 66px;
+    float: left;
+}
+.end p span{
+    font-family: snd light;
+    font-size: 26px;
+    color: black;
+    font-weight: 100;
+}
